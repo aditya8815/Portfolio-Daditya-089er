@@ -3,13 +3,18 @@
 <html lang="en">
 
 <head>
+    <!-- Basic Page Needs -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Professional Portfolio</title>
-    <!-- Import Google Fonts -->
+    <title>Aditya Dubey | Portfolio</title>
+
+    <!-- Google Fonts: Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Import Tailwind CSS -->
+
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Font Style -->
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -18,12 +23,17 @@
 </head>
 
 <body class="bg-gray-100">
-    <!-- Header Section -->
+
+    <!-- ============================= -->
+    <!-- Header Section: Logo + Navbar -->
+    <!-- ============================= -->
     <header class="bg-blue-600 text-white py-4">
-        <div class="container mx-auto px-4">
-            <h1 class="text-3xl font-semibold">My Portfolio</h1>
-            <!-- Navigation Links -->
-            <nav class="mt-4">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between">
+            <!-- Site Title -->
+            <h1 class="text-3xl font-bold">Aditya Dubey</h1>
+
+            <!-- Navigation Menu -->
+            <nav class="mt-4 md:mt-0">
                 <ul class="flex space-x-6 text-lg">
                     <li><a href="#about" class="hover:text-blue-300">About</a></li>
                     <li><a href="#skills" class="hover:text-blue-300">Skills</a></li>
@@ -34,120 +44,163 @@
         </div>
     </header>
 
+    <!-- ============================= -->
+    <!-- Main Content Area -->
+    <!-- ============================= -->
     <main class="container mx-auto px-4 py-8">
-        <!-- About Section -->
-        <section id="about" class="mb-8">
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <h1 class="text-3xl font-semibold text-gray-800 mb-4">Hello, I'm [Aditya Dubey]</h1>
+
+        <!-- ========== About Section ========== -->
+        <section id="about" class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <!-- Profile Heading -->
+                <h2 class="text-3xl font-semibold text-gray-800 mb-4">Hello, I'm Aditya Dubey</h2>
+
                 <!-- Profile Image -->
-                <img src="./IMG_20250413_140143 (4).jpg" alt=" Aditya dubey" class="rounded-full mx-auto mt-4" style="width: 150px; height: 150px;">
-                <h2 class="text-2xl font-semibold text-gray-800 mb-4">About Me</h2>
-                <!-- Brief Introduction -->
+                <img src="./IMG_20250413_140143 (4).jpg" alt="Profile photo of Aditya Dubey" class="rounded-full mx-auto mb-6" style="width: 150px; height: 150px;">
+
+                <!-- About Me Text -->
                 <p class="text-gray-700 mb-4">
-                    I'm a web developer dedicated to creating high-performance, user-friendly websites that help businesses achieve their online goals.
+                    I’m a passionate web developer, focused on building responsive, dynamic websites that deliver exceptional user experiences.
                 </p>
-                <p class="text-gray-700 mb-4">
-                    My passion for web development stems from a love of problem-solving and a desire to create impactful digital experiences. I believe in a collaborative approach, working closely with clients to understand their unique needs and deliver tailored solutions that exceed expectations.
+                <p class="text-gray-700">
+                    I love solving real-world problems with code and enjoy collaborating with clients to bring their digital visions to life!
                 </p>
             </div>
         </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="mb-8">
+        <!-- ========== Skills Section ========== -->
+        <section id="skills" class="mb-12">
             <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-2xl font-semibold text-gray-800 mb-4">My Skills</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6 text-center">My Skill Set</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <!-- Technical Skills -->
                     <div>
-                        <h3 class="text-lg font-semibold text-gray-700 mb-2">Technical Skills</h3>
-                        <ul class="list-disc list-inside space-y-2">
-                            <li><span class="text-blue-500 font-medium">HTML</span></li>
-                            <li><span class="text-blue-500 font-medium">CSS</span></li>
-                            <li><span class="text-blue-500 font-medium">JavaScript</span></li>
-                            <li><span class="text-blue-500 font-medium">React</span></li>
-                            <li><span class="text-blue-500 font-medium">Node.js</span></li>
-                            <li><span class="text-blue-500 font-medium">Tailwind CSS</span></li>
-                            <li><span class="text-blue-500 font-medium">Git</span></li>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-4">Technical Skills</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                            <li>Tailwind CSS</li>
+                            <li>Git & GitHub</li>
                         </ul>
                     </div>
+
                     <!-- Non-Technical Skills -->
                     <div>
-                        <h3 class="text-lg font-semibold text-gray-700 mb-2">Non-Technical Skills</h3>
-                        <ul class="list-disc list-inside space-y-2">
-                            <li><span class="text-green-500 font-medium">Clear Communication</span></li>
-                            <li><span class="text-green-500 font-medium">Problem-Solving</span></li>
-                            <li><span class="text-green-500 font-medium">Project Management</span></li>
-                            <li><span class="text-green-500 font-medium">Client Communication</span></li>
-                            <li><span class="text-green-500 font-medium">Time Management</span></li>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-4">Soft Skills</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Effective Communication</li>
+                            <li>Problem-Solving Mindset</li>
+                            <li>Time Management</li>
+                            <li>Team Collaboration</li>
+                            <li>Project Leadership</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="mb-8">
+        <!-- ========== Projects Section ========== -->
+        <section id="projects" class="mb-12">
             <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Projects</h2>
-                <ul class="space-y-4">
-                    <li>
-                        <h3 class="text-xl font-semibold text-blue-600">Project One [Zomato clone website]</h3>
-                        <p class="text-gray-700">Created a Zomato clone using HTML, CSS, and JavaScript to simulate a food ordering interface.</p>
-                    </li>
-                    <li>
-                        <h3 class="text-xl font-semibold text-blue-600">Quiz Website</h3>
-                        <p class="text-gray-700">Built an interactive quiz application using HTML, CSS, JavaScript, and Bootstrap.</p>
-                    </li>
-                </ul>
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Projects I've Built</h2>
+
+                <div class="space-y-6">
+                    <!-- Project 1 -->
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-600 hover:underline">Zomato Clone Website</h3>
+                        <p class="text-gray-700 mt-2">
+                            A complete clone of Zomato’s website using HTML, CSS, and JavaScript, featuring responsive restaurant listings and an order simulation system.
+                        </p>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-600 hover:underline">Quiz Website</h3>
+                        <p class="text-gray-700 mt-2">
+                            An interactive quiz platform built using Bootstrap, JavaScript, and CSS — dynamically scoring users based on real-time answers.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- Contact Section with Details -->
-        <section id="contact" class="mb-8">
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Contact Me</h2>
-                <p class="text-gray-700 mb-4">Feel free to reach out to me via email or connect on LinkedIn!</p>
+        <!-- ========== Contact Information Section ========== -->
+        <section id="contact" class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6">Get in Touch</h2>
+
+                <p class="text-gray-700 mb-6">
+                    Whether you have an exciting project idea or just want to connect, feel free to reach out!
+                </p>
+
                 <ul class="text-blue-600 space-y-2">
-                    <li>Email: <a href="mailto:your.email@example.com" class="underline">dadityadubey089@gmail.com</a></li>
+                    <li>Email: <a href="mailto:dadityadubey089@gmail.com" class="underline">dadityadubey089@gmail.com</a></li>
                     <li>LinkedIn: <a href="https://linkedin.com/in/aditya-dubey-aab137290" target="_blank" class="underline">linkedin.com/in/aditya-dubey-aab137290</a></li>
                     <li>GitHub: <a href="https://github.com/aditya8815" target="_blank" class="underline">github.com/aditya8815</a></li>
                 </ul>
             </div>
         </section>
 
-        <!-- Contact Form Section -->
-        <section id="contact" class="mb-8">
+        <!-- ========== Contact Form Section (Separate ID) ========== -->
+        <section id="contact-form" class="mb-12">
             <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Contact Me</h2>
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Send Me a Message</h2>
+
                 <!-- Contact Form -->
-                <form action="/submit-form" method="post" class="space-y-4">
+                <form action="#" method="POST" class="space-y-6">
+                    <!-- Name Input -->
                     <div>
-                        <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
-                        <input type="text" id="name" name="name" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <label for="name" class="block text-gray-700 font-bold mb-2">Your Name</label>
+                        <input type="text" id="name" name="name" required
+                            class="w-full border rounded px-4 py-2 shadow focus:outline-none focus:ring-2 focus:ring-blue-400">
                     </div>
+
+                    <!-- Email Input -->
                     <div>
-                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
-                        <input type="email" id="email" name="email" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <label for="email" class="block text-gray-700 font-bold mb-2">Your Email</label>
+                        <input type="email" id="email" name="email" required
+                            class="w-full border rounded px-4 py-2 shadow focus:outline-none focus:ring-2 focus:ring-blue-400">
                     </div>
+
+                    <!-- Subject Input -->
                     <div>
-                        <label for="subject" class="block text-gray-700 text-sm font-bold mb-2">Subject:</label>
-                        <input type="text" id="subject" name="subject" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <label for="subject" class="block text-gray-700 font-bold mb-2">Subject</label>
+                        <input type="text" id="subject" name="subject"
+                            class="w-full border rounded px-4 py-2 shadow focus:outline-none focus:ring-2 focus:ring-blue-400">
                     </div>
+
+                    <!-- Message Input -->
                     <div>
-                        <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
-                        <textarea id="message" name="message" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+                        <label for="message" class="block text-gray-700 font-bold mb-2">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            class="w-full border rounded px-4 py-2 shadow focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
                     </div>
-                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Send Message</button>
+
+                    <!-- Submit Button -->
+                    <button type="submit"
+                        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow">
+                        Send Message
+                    </button>
                 </form>
-                <p class="mt-4 text-gray-600">I'll get back to you within 24 hours.</p>
+
+                <p class="text-gray-600 text-center mt-4">I'll respond within 24 hours!</p>
             </div>
         </section>
+
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-blue-600 text-white text-center py-4">
+    <!-- ============================= -->
+    <!-- Footer Section -->
+    <!-- ============================= -->
+    <footer class="bg-blue-600 text-white text-center py-6">
         <p>&copy; 2025 Aditya Dubey. All rights reserved.</p>
     </footer>
+
 </body>
 
 </html>
+
