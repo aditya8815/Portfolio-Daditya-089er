@@ -15,7 +15,7 @@ This project showcases my skills, projects, and contact information in a clean, 
 ## 📸 Preview
 
 ![Portfolio Screenshot](#)  
-*(You can add a screenshot here after deployment!)*
+![2025-04-28 (3)](https://github.com/user-attachments/assets/bc0f362d-330e-4d9c-8e24-84a62d374f09)
 
 ---
 
