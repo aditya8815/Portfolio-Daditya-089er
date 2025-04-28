@@ -40,6 +40,16 @@ This project showcases my skills, projects, and contact information in a clean, 
 ---
 
 ## 📂 Project Structure
+portfolio-website/
+├── index.html               # Main HTML file containing the portfolio structure
+├── images/                   # Directory for all project images (profile photo, screenshots)
+│    └── profile.jpg          # Your profile picture
+├── assets/                   #  Folder for additional resources
+│    ├── custom.css           #  Custom CSS styles (if needed)
+│    └── custom.js            #  Custom JavaScript (if needed)
+├── README.md                 # Documentation file with project overview and instructions
+├── LICENSE                   #  License file for open-source distribution
+└── tailwind.config.js        #  Tailwind CSS configuration (if customized locally)
 
 
 
