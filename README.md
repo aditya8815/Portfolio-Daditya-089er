@@ -7,15 +7,14 @@ This project showcases my skills, projects, and contact information in a clean, 
 
 ## 🚀 Live Demo
 
-👉 [Visit My Portfolio](#)  
-*(Replace `#` with your hosted link, like GitHub Pages, Vercel, or Netlify)*
+👉 [Visit My Portfolio](https://github.com/aditya8815/first-Aditya.git)  
 
 ---
 
 ## 📸 Preview
 
-![Portfolio Screenshot](#)  
-![2025-04-28 (3)](https://github.com/user-attachments/assets/bc0f362d-330e-4d9c-8e24-84a62d374f09)
+![Portfolio Screenshot](  
+![2025-04-28 (3)](https://github.com/user-attachments/assets/bc0f362d-330e-4d9c-8e24-84a62d374f09))
 
 ---
 
